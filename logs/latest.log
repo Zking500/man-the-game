@@ -1,0 +1,171 @@
+[23jun2024 20:23:48.041] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server]
+[23jun2024 20:23:48.044] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16
+[23jun2024 20:23:48.045] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 22.0.1 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[23jun2024 20:23:48.206] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[23jun2024 20:23:48.303] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/GAMER/Desktop/Fanfarrones%20craft/fanfarrones%20server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar!/ Service=ModLauncher Env=SERVER
+[23jun2024 20:23:48.423] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at C:\Users\GAMER\Desktop\Fanfarrones craft\fanfarrones server\mods} returned 2 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[23jun2024 20:23:48.672] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[23jun2024 20:23:49.346] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23jun2024 20:23:49.393] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments []
+[23jun2024 20:23:49.499] [main/WARN] [mixin/]: Reference map 'fancymenu.refmap.json' for fancymenu.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[23jun2024 20:23:49.500] [main/WARN] [mixin/]: Reference map 'fancymenu.refmap.json' for fancymenu.mixins.json could not be read. If this is a development environment you can ignore this message
+[23jun2024 20:23:49.504] [main/WARN] [mixin/]: Reference map 'melody.refmap.json' for melody.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[23jun2024 20:23:49.505] [main/WARN] [mixin/]: Reference map 'melody.refmap.json' for melody.mixins.json could not be read. If this is a development environment you can ignore this message
+[23jun2024 20:23:49.510] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[23jun2024 20:23:49.512] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.mixins.json could not be read. If this is a development environment you can ignore this message
+[23jun2024 20:23:49.778] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.properties file on the classpath: [jar:file:///C:/Users/GAMER/Desktop/Fanfarrones%20craft/fanfarrones%20server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/GAMER/Desktop/Fanfarrones%20craft/fanfarrones%20server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:///C:/Users/GAMER/Desktop/Fanfarrones%20craft/fanfarrones%20server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties, jar:file:/C:/Users/GAMER/Desktop/Fanfarrones%20craft/fanfarrones%20server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.properties]
+[23jun2024 20:23:50.106] [main/WARN] [oshi.util.FileUtil/]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath: [jar:file:///C:/Users/GAMER/Desktop/Fanfarrones%20craft/fanfarrones%20server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/GAMER/Desktop/Fanfarrones%20craft/fanfarrones%20server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:///C:/Users/GAMER/Desktop/Fanfarrones%20craft/fanfarrones%20server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties, jar:file:/C:/Users/GAMER/Desktop/Fanfarrones%20craft/fanfarrones%20server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar!/oshi.architecture.properties]
+[23jun2024 20:23:50.161] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[23jun2024 20:23:52.260] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[23jun2024 20:23:54.596] [modloading-worker-0/WARN] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[23jun2024 20:23:54.598] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.61.
+[23jun2024 20:23:54.599] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Loading v1.9.9 in server-side mode on FORGE!
+[23jun2024 20:23:54.600] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
+[23jun2024 20:23:54.601] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[23jun2024 20:23:54.601] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[23jun2024 20:23:54.601] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging Copyright © 2014 Dhyan Blum.
+[23jun2024 20:23:54.602] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging is licensed under Apache-2.0.
+[23jun2024 20:23:54.602] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[23jun2024 20:23:54.603] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath Copyright © 2017 Jayway.
+[23jun2024 20:23:54.603] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath is licensed under Apache-2.0.
+[23jun2024 20:23:54.603] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[23jun2024 20:23:54.604] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart Copyright © netplex.
+[23jun2024 20:23:54.604] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart is licensed under Apache-2.0.
+[23jun2024 20:23:54.604] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[23jun2024 20:23:54.605] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j Copyright © Frank Asseg.
+[23jun2024 20:23:54.605] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[23jun2024 20:23:54.605] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
+[23jun2024 20:23:54.605] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side modules initialized and ready to use!
+[23jun2024 20:23:54.617] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.16, for MC 1.21 with MCP 20240613.102039
+[23jun2024 20:23:54.619] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.16 Initialized
+[23jun2024 20:23:54.620] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.2.4 in server-side mode on FORGE!
+[23jun2024 20:23:54.630] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[23jun2024 20:23:55.258] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[23jun2024 20:23:55.806] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23jun2024 20:23:55.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.22 Target: null
+[23jun2024 20:23:55.824] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23jun2024 20:23:56.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 51.0.16 Target: 51.0.17
+[23jun2024 20:23:57.487] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[23jun2024 20:23:57.672] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[23jun2024 20:23:58.196] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21
+[23jun2024 20:23:58.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23jun2024 20:23:58.198] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23jun2024 20:23:58.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23jun2024 20:23:58.281] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23jun2024 20:23:58.360] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[23jun2024 20:23:58.519] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23jun2024 20:24:00.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23jun2024 20:24:01.141] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23jun2024 20:24:01.193] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23jun2024 20:24:01.322] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 629 ms
+[23jun2024 20:24:01.324] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.853s)! For help, type "help"
+[23jun2024 20:24:01.360] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23jun2024 20:24:20.341] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player JaredoH is 977fe0f2-2e10-4bf6-8d10-093c4b760935
+[23jun2024 20:24:20.701] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Howkls is f43e186c-c15a-4c07-a78b-516c3556fa4c
+[23jun2024 20:24:23.940] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: JaredoH[/127.216.49.30:60295] logged in with entity id 2 at (1961.0990899201665, 146.0, 736.8856592134103)
+[23jun2024 20:24:24.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JaredoH joined the game
+[23jun2024 20:24:24.248] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Howkls[/127.62.175.34:60297] logged in with entity id 3 at (191.2346507020282, 75.0, 1288.5946935749914)
+[23jun2024 20:24:24.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Howkls joined the game
+[23jun2024 20:24:43.415] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player LordPamps is d3d6adec-ba5d-466c-9535-562c0d61bb9d
+[23jun2024 20:24:45.074] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: LordPamps[/127.204.150.55:60337] logged in with entity id 575 at (38.09705524397023, 64.0, 1444.7081106127282)
+[23jun2024 20:24:45.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LordPamps joined the game
+[23jun2024 20:24:52.493] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player ZKing500 is ca175c6f-3539-4a21-a35f-3565aa66f0bc
+[23jun2024 20:24:53.063] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZKing500[/127.130.211.190:60367] logged in with entity id 771 at (1934.2607314289971, 150.0, 749.9630364807451)
+[23jun2024 20:24:53.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZKing500 joined the game
+[23jun2024 20:30:38.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JaredoH was shot by Skeleton
+[23jun2024 20:31:16.316] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player espectra1 is fd98f725-8512-4d26-86c4-b901b85e385b
+[23jun2024 20:31:17.363] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player valeria_ez is 2d59f929-cf3e-4caf-a45a-5710ec0c6b5d
+[23jun2024 20:31:23.504] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: espectra1[/127.254.189.209:60539] logged in with entity id 4682 at (1953.0226811730442, 146.0, 739.1974688792097)
+[23jun2024 20:31:23.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: espectra1 joined the game
+[23jun2024 20:31:23.822] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: valeria_ez[/127.95.42.107:60542] logged in with entity id 4689 at (1945.3399008265678, 150.0, 746.5436400718453)
+[23jun2024 20:31:23.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valeria_ez joined the game
+[23jun2024 20:33:54.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZKing500 has made the advancement [Ice Bucket Challenge]
+[23jun2024 20:34:37.280] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/5895, l='ServerLevel[world]', x=228.42, y=66.00, z=1241.34] died, message: 'Nitwit was slain by Zombie'
+[23jun2024 20:34:50.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made ZKing500 a server operator
+[23jun2024 20:35:00.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ZKing500: Teleported ZKing500 to valeria_ez]
+[23jun2024 20:39:46.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LordPamps has made the advancement [Take Aim]
+[23jun2024 20:43:26.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valeria_ez has made the advancement [Ol' Betsy]
+[23jun2024 20:44:38.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JaredoH was slain by valeria_ez
+[23jun2024 20:44:54.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [valeria_ez: Teleported JaredoH to valeria_ez]
+[23jun2024 20:57:37.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ZKing500: Teleported espectra1 to ZKing500]
+[23jun2024 20:57:42.986] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/21907, l='ServerLevel[world]', x=783.56, y=90.75, z=1254.70] died, message: 'Farmer was slain by Zombie'
+[23jun2024 20:58:17.198] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Oak Boat (vehicle of Howkls) moved wrongly! 0.28578610972340357
+[23jun2024 20:58:17.249] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Oak Boat (vehicle of Howkls) moved wrongly! 0.5728728346198295
+[23jun2024 20:58:17.293] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Oak Boat (vehicle of Howkls) moved wrongly! 0.8590484691619622
+[23jun2024 20:58:17.539] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Oak Boat (vehicle of Howkls) moved wrongly! 0.3280268680359768
+[23jun2024 20:59:22.839] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/5913, l='ServerLevel[world]', x=1138.40, y=62.71, z=1452.42] died, message: 'Villager was slain by Drowned'
+[23jun2024 20:59:27.824] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Vagabond'/5912, l='ServerLevel[world]', x=1139.14, y=62.71, z=1452.72] died, message: 'Vagabond was slain by Drowned'
+[23jun2024 20:59:27.825] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Vagabond'/5912, l='ServerLevel[world]', x=1139.14, y=62.71, z=1452.72] died: Vagabond was slain by Drowned
+[23jun2024 20:59:28.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [valeria_ez: Set the time to 1000]
+[23jun2024 21:00:50.189] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: valeria_ez lost connection: Disconnected
+[23jun2024 21:00:50.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valeria_ez left the game
+[23jun2024 21:00:52.793] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZKing500 lost connection: Disconnected
+[23jun2024 21:00:52.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZKing500 left the game
+[23jun2024 21:02:58.105] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Howkls moved wrongly!
+[23jun2024 21:13:20.037] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player valeria_ez is 2d59f929-cf3e-4caf-a45a-5710ec0c6b5d
+[23jun2024 21:13:30.437] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: valeria_ez[/127.95.42.107:61765] logged in with entity id 37557 at (1961.0915646890899, 146.0, 733.179942917775)
+[23jun2024 21:13:30.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valeria_ez joined the game
+[23jun2024 21:13:43.014] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player ZKing500 is ca175c6f-3539-4a21-a35f-3565aa66f0bc
+[23jun2024 21:13:43.563] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ZKing500[/127.130.211.190:61774] logged in with entity id 37668 at (1990.2630384165802, 147.0, 706.6367623602887)
+[23jun2024 21:13:43.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZKing500 joined the game
+[23jun2024 21:13:43.975] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/2917, l='ServerLevel[world]', x=1447.10, y=94.19, z=807.18] died, message: 'Villager suffocated in a wall'
+[23jun2024 21:14:37.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ZKing500: Teleported ZKing500 to valeria_ez]
+[23jun2024 21:14:45.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <valeria_ez> where is my mind?
+[23jun2024 21:17:23.833] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/33840, l='ServerLevel[world]', x=1438.57, y=118.00, z=828.70] died, message: 'Nitwit hit the ground too hard'
+[23jun2024 21:19:54.134] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: OcST8 (/127.101.48.160:61836) lost connection: Disconnected
+[23jun2024 21:22:16.497] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: espectra1 lost connection: Disconnected
+[23jun2024 21:22:16.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: espectra1 left the game
+[23jun2024 21:22:33.135] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ZKing500 lost connection: Disconnected
+[23jun2024 21:22:33.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ZKing500 left the game
+[23jun2024 21:23:32.893] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: valeria_ez moved too quickly! -1.8030852943609261,-10.596058325307405,-1.0142053465933714
+[23jun2024 21:33:14.073] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JaredoH lost connection: Disconnected
+[23jun2024 21:33:14.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JaredoH left the game
+[23jun2024 21:37:24.025] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1967, y=-56, z=702} BlockPos{x=1967, y=-57, z=702}
+[23jun2024 21:37:37.575] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=1965, y=-56, z=702} BlockPos{x=1964, y=-58, z=702}
+[23jun2024 21:37:49.317] [User Authenticator #9/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player espectra1 is fd98f725-8512-4d26-86c4-b901b85e385b
+[23jun2024 21:37:54.847] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: espectra1[/127.254.189.209:63101] logged in with entity id 51368 at (1957.1826672541977, 143.0, 676.4498125935529)
+[23jun2024 21:37:54.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: espectra1 joined the game
+[23jun2024 21:38:05.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [valeria_ez: Teleported valeria_ez to espectra1]
+[23jun2024 21:42:29.179] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: espectra1 lost connection: Disconnected
+[23jun2024 21:42:29.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: espectra1 left the game
+[23jun2024 21:44:12.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LordPamps has made the advancement [Enchanter]
+[23jun2024 21:56:55.734] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: LordPamps lost connection: Disconnected
+[23jun2024 21:56:55.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: LordPamps left the game
+[23jun2024 21:59:46.541] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Howkls lost connection: Disconnected
+[23jun2024 21:59:46.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Howkls left the game
+[23jun2024 21:59:55.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to valeria_ez: apago el server?
+[23jun2024 22:00:28.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Only players may be affected by this command, but the provided selector includes entities
+[23jun2024 22:00:28.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: w @e manda mensaje por minecraft<--[HERE]
+[23jun2024 22:00:36.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to valeria_ez: manda mensaje por minecraft
+[23jun2024 22:01:57.691] [User Authenticator #10/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player JaredoH is 977fe0f2-2e10-4bf6-8d10-093c4b760935
+[23jun2024 22:02:04.765] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: JaredoH[/127.216.49.30:63978] logged in with entity id 59674 at (1956.0451242414465, 146.0, 734.3986902836813)
+[23jun2024 22:02:04.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JaredoH joined the game
+[23jun2024 22:37:52.771] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: valeria_ez lost connection: Disconnected
+[23jun2024 22:37:52.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valeria_ez left the game
+[23jun2024 22:38:02.814] [User Authenticator #11/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player valeria_ez is 2d59f929-cf3e-4caf-a45a-5710ec0c6b5d
+[23jun2024 22:38:11.951] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: valeria_ez[/127.95.42.107:49490] logged in with entity id 63515 at (1935.6374056976383, 132.0, 746.4567173719887)
+[23jun2024 22:38:11.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valeria_ez joined the game
+[23jun2024 22:39:08.030] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: valeria_ez lost connection: Disconnected
+[23jun2024 22:39:08.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valeria_ez left the game
+[23jun2024 23:24:55.784] [User Authenticator #12/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player valeria_ez is 2d59f929-cf3e-4caf-a45a-5710ec0c6b5d
+[23jun2024 23:25:02.394] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: valeria_ez[/127.95.42.107:51020] logged in with entity id 73575 at (1937.9368526367277, 132.0, 745.2727465278465)
+[23jun2024 23:25:02.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valeria_ez joined the game
+[23jun2024 23:27:24.788] [User Authenticator #13/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Howkls is f43e186c-c15a-4c07-a78b-516c3556fa4c
+[23jun2024 23:27:28.341] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Howkls[/127.62.175.34:51055] logged in with entity id 73878 at (1426.4566403278193, 99.0, 804.1635926803734)
+[23jun2024 23:27:28.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Howkls joined the game
+[23jun2024 23:52:08.634] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: valeria_ez lost connection: Disconnected
+[23jun2024 23:52:08.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: valeria_ez left the game
+[23jun2024 23:52:15.585] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Howkls lost connection: Disconnected
+[23jun2024 23:52:15.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Howkls left the game
+[23jun2024 23:52:47.582] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JaredoH lost connection: Disconnected
+[23jun2024 23:52:47.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JaredoH left the game
+[23jun2024 23:53:06.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23jun2024 23:53:06.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23jun2024 23:53:06.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23jun2024 23:53:06.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23jun2024 23:53:06.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23jun2024 23:53:06.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23jun2024 23:53:06.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23jun2024 23:53:06.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23jun2024 23:53:06.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23jun2024 23:53:06.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,0 +1,137 @@
+---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 2024-06-23 00:55:22
+Description: Exception in server tick loop
+
+java.lang.NoSuchMethodError: 'java.lang.Thread net.minecraft.server.MinecraftServer.m_6304_()'
+	at TRANSFORMER/spark@1.10.73/me.lucko.spark.forge.plugin.ForgeServerSparkPlugin.<init>(ForgeServerSparkPlugin.java:101) ~[spark-1.10.73-forge.jar!/:?] {re:classloading}
+	at TRANSFORMER/spark@1.10.73/me.lucko.spark.forge.plugin.ForgeServerSparkPlugin.register(ForgeServerSparkPlugin.java:77) ~[spark-1.10.73-forge.jar!/:?] {re:classloading}
+	at TRANSFORMER/spark@1.10.73/me.lucko.spark.forge.ForgeSparkMod.serverInit(ForgeSparkMod.java:68) ~[spark-1.10.73-forge.jar!/:?] {re:classloading}
+	at TRANSFORMER/spark@1.10.73/me.lucko.spark.forge.__ForgeSparkMod_serverInit_ServerAboutToStartEvent.invoke(.dynamic) ~[spark-1.10.73-forge.jar!/:?] {re:classloading,pl:eventbus:B}
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:48) ~[eventbus-6.2.6.jar!/:?] {}
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:304) ~[eventbus-6.2.6.jar!/:?] {}
+	at SECURE-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:290) ~[eventbus-6.2.6.jar!/:?] {}
+	at TRANSFORMER/forge@51.0.16/net.minecraftforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:81) ~[forge-1.21-51.0.16-universal.jar!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:189) ~[forge-1.21-51.0.16-server.jar!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:665) ~[forge-1.21-51.0.16-server.jar!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[forge-1.21-51.0.16-server.jar!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,re:classloading,pl:accesstransformer:B,xf:fml:xaerominimap:xaero_minecraftserver,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21
+	Minecraft Version ID: 1.21
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 22.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 291314720 bytes (277 MiB) / 562036736 bytes (536 MiB) up to 8531214336 bytes (8136 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i5-12500
+	Identifier: Intel64 Family 6 Model 151 Stepping 5
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 3.00
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: Intel(R) UHD Graphics 770
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 1024.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.101.4577
+	Graphics card #1 name: Radeon RX 580 Series
+	Graphics card #1 vendor: Advanced Micro Devices, Inc.
+	Graphics card #1 VRAM (MiB): 8192.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 31.0.12027.9001
+	Graphics card #2 name: NVIDIA GeForce RTX 3070
+	Graphics card #2 vendor: NVIDIA
+	Graphics card #2 VRAM (MiB): 0.00
+	Graphics card #2 deviceId: VideoController3
+	Graphics card #2 versionInfo: 27.21.14.5751
+	Graphics card #3 name: AMD Radeon RX 580 2048SP
+	Graphics card #3 vendor: Advanced Micro Devices, Inc.
+	Graphics card #3 VRAM (MiB): 8192.00
+	Graphics card #3 deviceId: VideoController4
+	Graphics card #3 versionInfo: 31.0.21905.1001
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 37662.00
+	Virtual memory used (MiB): 22167.10
+	Swap memory total (MiB): 5120.00
+	Swap memory used (MiB): 111.39
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 157058.02, total: 487630.00
+	Space in storage for workdir (MiB): available: 157058.02, total: 487630.00
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 0 / 20; []
+	Active Data Packs: vanilla, mod:humblingbundle, mod:mixinextras (incompatible), mod:inventoryhud (incompatible), mod:fancymenu (incompatible), mod:continents, mod:melody (incompatible), mod:forge (incompatible), mod:stackrefill, mod:konkrete (incompatible), mod:collective, mod:structory, mod:gd_betterloot, mod:fallingtree (incompatible), mod:kuma_api (incompatible), mod:netherportalfix (incompatible), mod:geckolib (incompatible), mod:jei (incompatible), mod:commonnetworking (incompatible), mod:pingwheel (incompatible), mod:spark (incompatible), mod:multimine (incompatible), mod:xaerominimap (incompatible), mod:forgeendertech (incompatible), mod:adlods (incompatible), mod:configured (incompatible), mod:balm (incompatible), mod:inventoryessentials (incompatible), mod:craftingtweaks (incompatible)
+	Available Data Packs: bundle, mod:adlods (incompatible), mod:balm (incompatible), mod:collective, mod:commonnetworking (incompatible), mod:configured (incompatible), mod:continents, mod:craftingtweaks (incompatible), mod:fallingtree (incompatible), mod:fancymenu (incompatible), mod:forge (incompatible), mod:forgeendertech (incompatible), mod:gd_betterloot, mod:geckolib (incompatible), mod:humblingbundle, mod:inventoryessentials (incompatible), mod:inventoryhud (incompatible), mod:jei (incompatible), mod:konkrete (incompatible), mod:kuma_api (incompatible), mod:melody (incompatible), mod:mixinextras (incompatible), mod:multimine (incompatible), mod:netherportalfix (incompatible), mod:pingwheel (incompatible), mod:spark (incompatible), mod:stackrefill, mod:structory, mod:xaerominimap (incompatible), trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	World Seed: -6688857274634821073
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 10.2.1
+	ModLauncher launch target: forge_server
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/ slf4jfixer PLUGINSERVICE 
+		/ runtimedistcleaner PLUGINSERVICE 
+		/ runtime_enum_extender PLUGINSERVICE 
+		/ object_holder_definalize PLUGINSERVICE 
+		/ capability_token_subclass PLUGINSERVICE 
+		/ accesstransformer PLUGINSERVICE 
+		/ eventbus PLUGINSERVICE 
+		/ mixin PLUGINSERVICE 
+		/ fml TRANSFORMATIONSERVICE 
+		/ mixin TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		lowcodefml@51
+		minecraft@1.0
+		javafml@51.0.16
+	Mod List: 
+		forge-1.21-51.0.16-server.jar                     |Minecraft                     |minecraft                     |1.21                |DONE      |Manifest: NOSIGNATURE
+		kuma-api-forge-21.0.4+1.21.jar                    |KumaAPI                       |kuma_api                      |21.0.4              |DONE      |Manifest: NOSIGNATURE
+		netherportalfix-forge-1.21-21.0.1.jar             |NetherPortalFix               |netherportalfix               |21.0.1              |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.21-4.5.6.jar                     |GeckoLib 4                    |geckolib                      |4.5.6               |DONE      |Manifest: NOSIGNATURE
+		jei-1.21-forge-19.0.0.9.jar                       |Just Enough Items             |jei                           |19.0.0.9            |DONE      |Manifest: NOSIGNATURE
+		common-networking-forge-1.0.11-1.21.jar           |Common Networking             |commonnetworking              |1.0.11-1.21         |DONE      |Manifest: NOSIGNATURE
+		Ping-Wheel-1.9.0-forge-1.21.jar                   |Ping Wheel                    |pingwheel                     |1.9.0               |DONE      |Manifest: NOSIGNATURE
+		spark-1.10.73-forge.jar                           |spark                         |spark                         |1.10.73             |DONE      |Manifest: NOSIGNATURE
+		multimine-1.21.1.jar                              |Multi Mine                    |multimine                     |1.21.1              |DONE      |Manifest: NOSIGNATURE
+		Xaeros_Minimap_24.2.1_Forge_1.21.jar              |Xaero's Minimap               |xaerominimap                  |24.2.1              |DONE      |Manifest: NOSIGNATURE
+		ForgeEndertech-1.21-12.0.0.1-build.0100.jar       |ForgeEndertech                |forgeendertech                |12.0.0.1            |DONE      |Manifest: NOSIGNATURE
+		AdLods-1.21-9.0.0.0-build.0046.jar                |Large Ore Deposits            |adlods                        |9.0.0.0             |DONE      |Manifest: NOSIGNATURE
+		collective-1.21.0-7.64.jar                        |Collective                    |collective                    |7.64                |DONE      |Manifest: NOSIGNATURE
+		Structory_1.21_v1.3.5.jar                         |Structory                     |structory                     |1.3.5               |DONE      |Manifest: NOSIGNATURE
+		configured-forge-1.21-2.5.0.jar                   |Configured                    |configured                    |2.5.0               |DONE      |Manifest: 0D:78:5F:44:C0:47:0C:8C:E2:63:A3:04:43:D4:12:7D:B0:7C:35:37:DC:40:B1:C1:98:EC:51:EB:3B:3C:45:99
+		humblingbundle-1.21.0-2.3.jar                     |Humbling Bundle               |humblingbundle                |2.3                 |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.3.5.jar                       |MixinExtras                   |mixinextras                   |0.3.5               |DONE      |Manifest: NOSIGNATURE
+		inventoryhud.forge.1.21-3.4.22.jar                |Inventory HUD+                |inventoryhud                  |3.4.22              |DONE      |Manifest: NOSIGNATURE
+		fancymenu_forge_3.2.5_MC_1.21.jar                 |FancyMenu                     |fancymenu                     |3.2.5               |DONE      |Manifest: NOSIGNATURE
+		Continents_1.21_v1.1.5.jar                        |Continents                    |continents                    |1.1.5               |DONE      |Manifest: NOSIGNATURE
+		balm-forge-1.21-21.0.7-all.jar                    |Balm                          |balm                          |21.0.7              |DONE      |Manifest: NOSIGNATURE
+		melody_forge_1.0.10_MC_1.21.jar                   |Melody                        |melody                        |1.0.10              |DONE      |Manifest: NOSIGNATURE
+		inventoryessentials-forge-1.21-21.0.2.jar         |Inventory Essentials          |inventoryessentials           |21.0.2              |DONE      |Manifest: NOSIGNATURE
+		FallingTree-1.21-1.21.0.2.jar                     |FallingTree                   |fallingtree                   |1.21.0.2            |DONE      |Manifest: NOSIGNATURE
+		forge-1.21-51.0.16-universal.jar                  |Forge                         |forge                         |51.0.16             |DONE      |Manifest: NOSIGNATURE
+		stackrefill-1.21.0-4.4.jar                        |Stack Refill                  |stackrefill                   |4.4                 |DONE      |Manifest: NOSIGNATURE
+		konkrete_forge_1.9.9_MC_1.21.jar                  |Konkrete                      |konkrete                      |1.9.9               |DONE      |Manifest: NOSIGNATURE
+		craftingtweaks-forge-1.21-21.0.3.jar              |Crafting Tweaks               |craftingtweaks                |21.0.3              |DONE      |Manifest: NOSIGNATURE
+		GD-BetterLoot_v1.0b2-1.20.5+-1.21_Fabric-Quilt-For|GD BetterLoot                 |gd_betterloot                 |1.0b2               |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 21797393-d699-4cb8-b9d8-989ffd181833
+	FML: 0.0
+	Forge: net.minecraftforge:51.0.16
