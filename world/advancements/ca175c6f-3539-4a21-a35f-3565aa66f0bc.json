@@ -395,7 +395,8 @@
       "minecraft:savanna": "2024-06-20 19:35:06 -0600",
       "minecraft:bamboo_jungle": "2024-06-20 19:46:26 -0600",
       "minecraft:windswept_savanna": "2024-06-20 19:39:11 -0600",
-      "minecraft:plains": "2024-06-22 22:40:59 -0600"
+      "minecraft:plains": "2024-06-22 22:40:59 -0600",
+      "minecraft:deep_lukewarm_ocean": "2024-06-24 23:04:24 -0600"
     },
     "done": false
   },
@@ -1344,8 +1345,11 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:cave_spider": "2024-06-23 00:37:14 -0600",
       "minecraft:skeleton": "2024-06-20 22:09:02 -0600",
+      "minecraft:phantom": "2024-06-25 16:44:49 -0600",
+      "minecraft:husk": "2024-06-21 22:58:30 -0600",
+      "minecraft:cave_spider": "2024-06-23 00:37:14 -0600",
+      "minecraft:breeze": "2024-06-24 23:38:26 -0600",
       "minecraft:enderman": "2024-06-21 14:21:14 -0600",
       "minecraft:silverfish": "2024-06-21 22:58:11 -0600",
       "minecraft:stray": "2024-06-21 22:47:41 -0600",
@@ -1353,7 +1357,6 @@
       "minecraft:zombie": "2024-06-21 16:37:00 -0600",
       "minecraft:creeper": "2024-06-23 00:04:47 -0600",
       "minecraft:drowned": "2024-06-21 18:07:17 -0600",
-      "minecraft:husk": "2024-06-21 22:58:30 -0600",
       "minecraft:slime": "2024-06-21 23:10:23 -0600"
     },
     "done": false
@@ -2881,6 +2884,60 @@
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_chiseled_sandstone": "2024-06-23 20:53:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2024-06-24 23:46:43 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2024-06-24 23:46:43 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2024-06-24 23:50:51 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2024-06-24 23:50:51 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2024-06-24 23:50:51 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-06-25 16:24:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2024-06-25 16:24:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-06-25 16:24:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-06-25 17:44:13 -0600"
     },
     "done": true
   },

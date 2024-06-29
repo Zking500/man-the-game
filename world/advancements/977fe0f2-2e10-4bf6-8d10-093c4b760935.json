@@ -739,7 +739,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:flower_forest": "2024-06-25 18:20:30 -0600",
       "minecraft:beach": "2024-06-20 19:35:32 -0600",
+      "minecraft:dark_forest": "2024-06-25 18:27:06 -0600",
       "minecraft:forest": "2024-06-20 19:43:33 -0600",
       "minecraft:mangrove_swamp": "2024-06-23 18:32:48 -0600",
       "minecraft:sparse_jungle": "2024-06-21 15:02:51 -0600",
@@ -747,8 +749,12 @@
       "minecraft:river": "2024-06-20 19:36:45 -0600",
       "minecraft:lukewarm_ocean": "2024-06-20 19:44:58 -0600",
       "minecraft:lush_caves": "2024-06-21 15:58:10 -0600",
+      "minecraft:old_growth_birch_forest": "2024-06-25 18:28:55 -0600",
       "minecraft:jungle": "2024-06-20 19:44:28 -0600",
+      "minecraft:ocean": "2024-06-25 18:12:58 -0600",
       "minecraft:sunflower_plains": "2024-06-20 19:38:36 -0600",
+      "minecraft:cherry_grove": "2024-06-25 18:18:20 -0600",
+      "minecraft:birch_forest": "2024-06-25 18:26:16 -0600",
       "minecraft:savanna": "2024-06-20 19:37:15 -0600",
       "minecraft:bamboo_jungle": "2024-06-20 19:46:39 -0600",
       "minecraft:windswept_savanna": "2024-06-20 19:38:32 -0600",
@@ -844,6 +850,7 @@
       "minecraft:pillager": "2024-06-23 18:36:31 -0600",
       "minecraft:skeleton": "2024-06-20 19:45:35 -0600",
       "minecraft:phantom": "2024-06-20 20:44:28 -0600",
+      "minecraft:husk": "2024-06-21 22:30:32 -0600",
       "minecraft:enderman": "2024-06-21 23:30:03 -0600",
       "minecraft:silverfish": "2024-06-21 22:14:09 -0600",
       "minecraft:stray": "2024-06-21 22:16:01 -0600",
@@ -851,7 +858,7 @@
       "minecraft:zombie": "2024-06-21 15:55:13 -0600",
       "minecraft:creeper": "2024-06-23 19:44:31 -0600",
       "minecraft:drowned": "2024-06-21 23:30:41 -0600",
-      "minecraft:husk": "2024-06-21 22:30:32 -0600",
+      "minecraft:zombie_villager": "2024-06-25 17:39:44 -0600",
       "minecraft:slime": "2024-06-21 23:06:19 -0600"
     },
     "done": false
@@ -2902,39 +2909,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_bed": {
-    "criteria": {
-      "has_black_wool": "2024-06-23 22:50:29 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_bed": {
-    "criteria": {
-      "has_light_gray_wool": "2024-06-23 22:50:25 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_carpet": {
-    "criteria": {
-      "has_black_wool": "2024-06-23 22:50:29 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/gray_banner": {
     "criteria": {
       "has_gray_wool": "2024-06-23 22:50:23 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_gray_banner": {
-    "criteria": {
-      "has_light_gray_wool": "2024-06-23 22:50:25 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_banner": {
-    "criteria": {
-      "has_black_wool": "2024-06-23 22:50:29 -0600"
     },
     "done": true
   },
@@ -2944,9 +2921,63 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-23 22:50:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-23 22:50:25 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_carpet": {
     "criteria": {
       "has_light_gray_wool": "2024-06-23 22:50:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-06-23 22:50:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-06-23 22:50:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-06-23 22:50:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2024-06-25 18:50:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-06-25 18:19:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2024-06-25 18:50:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_hay_block": "2024-06-25 18:19:07 -0600"
     },
     "done": true
   },

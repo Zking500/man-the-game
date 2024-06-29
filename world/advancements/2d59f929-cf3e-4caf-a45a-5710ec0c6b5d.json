@@ -693,7 +693,8 @@
       "minecraft:savanna": "2024-06-20 19:37:04 -0600",
       "minecraft:bamboo_jungle": "2024-06-20 19:46:14 -0600",
       "minecraft:windswept_savanna": "2024-06-20 19:38:58 -0600",
-      "minecraft:plains": "2024-06-21 16:20:52 -0600"
+      "minecraft:plains": "2024-06-21 16:20:52 -0600",
+      "minecraft:deep_lukewarm_ocean": "2024-06-24 23:34:34 -0600"
     },
     "done": false
   },
@@ -701,6 +702,7 @@
     "criteria": {
       "cooked_porkchop": "2024-06-21 19:22:01 -0600",
       "bread": "2024-06-20 21:30:11 -0600",
+      "golden_apple": "2024-06-24 23:42:43 -0600",
       "honey_bottle": "2024-06-21 22:05:29 -0600",
       "rotten_flesh": "2024-06-21 20:15:58 -0600",
       "cooked_mutton": "2024-06-20 21:28:04 -0600",
@@ -765,7 +767,9 @@
       "minecraft:phantom": "2024-06-20 20:42:59 -0600",
       "minecraft:witch": "2024-06-22 22:57:54 -0600",
       "minecraft:husk": "2024-06-21 21:49:59 -0600",
+      "minecraft:hoglin": "2024-06-26 14:56:28 -0600",
       "minecraft:cave_spider": "2024-06-23 11:02:07 -0600",
+      "minecraft:piglin": "2024-06-25 11:51:25 -0600",
       "minecraft:breeze": "2024-06-21 22:01:07 -0600",
       "minecraft:enderman": "2024-06-20 21:29:26 -0600",
       "minecraft:silverfish": "2024-06-21 22:13:27 -0600",
@@ -3979,6 +3983,84 @@
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2024-06-23 21:40:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2024-06-24 23:51:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2024-06-24 23:51:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2024-06-24 23:51:18 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2024-06-24 23:53:02 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2024-06-25 00:03:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2024-06-25 00:03:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2024-06-25 00:03:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2024-06-25 00:03:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2024-06-25 00:03:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2024-06-25 00:07:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2024-06-25 16:33:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2024-06-25 16:33:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:flow_armor_trim_smithing_template_smithing_trim": "2024-06-26 15:29:10 -0600"
     },
     "done": true
   },
